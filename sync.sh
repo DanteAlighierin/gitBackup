@@ -1,5 +1,6 @@
 #!/bin/bash
 
+date +%d-%m-%y/%H:%M:%S
 cd /home/dante/pass
 /usr/bin/git add .
 /usr/bin/git commit -m"password database update"
